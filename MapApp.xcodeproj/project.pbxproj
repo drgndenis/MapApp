@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		E29694CF2AF2D64600B44E9B /* MapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29694CE2AF2D64600B44E9B /* MapAppApp.swift */; };
-		E29694D12AF2D64600B44E9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29694D02AF2D64600B44E9B /* ContentView.swift */; };
 		E29694D62AF2D64700B44E9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29694D52AF2D64700B44E9B /* Preview Assets.xcassets */; };
 		E2B994292AF3D810005086B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B994282AF3D810005086B5 /* Assets.xcassets */; };
 		E2B9942B2AF3D82B005086B5 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B9942A2AF3D82B005086B5 /* LocationsDataService.swift */; };
 		E2B9942D2AF3D83C005086B5 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B9942C2AF3D83C005086B5 /* LocationModel.swift */; };
+		E2C89F582AF7CC2E00FB5A66 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C89F572AF7CC2E00FB5A66 /* LocationsView.swift */; };
+		E2C89F5C2AF7CC5400FB5A66 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C89F5B2AF7CC5400FB5A66 /* LocationsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E29694CB2AF2D64600B44E9B /* MapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29694CE2AF2D64600B44E9B /* MapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAppApp.swift; sourceTree = "<group>"; };
-		E29694D02AF2D64600B44E9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E29694D52AF2D64700B44E9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2B994282AF3D810005086B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2B9942A2AF3D82B005086B5 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		E2B9942C2AF3D83C005086B5 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		E2C89F572AF7CC2E00FB5A66 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		E2C89F5B2AF7CC5400FB5A66 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +57,11 @@
 		E29694CD2AF2D64600B44E9B /* MapApp */ = {
 			isa = PBXGroup;
 			children = (
+				E29694CE2AF2D64600B44E9B /* MapAppApp.swift */,
 				E2B994272AF3D7EC005086B5 /* DataServices */,
 				E2B994242AF3D7C5005086B5 /* Models */,
 				E2B994262AF3D7CF005086B5 /* ViewModels */,
 				E2B994252AF3D7CA005086B5 /* Views */,
-				E29694CE2AF2D64600B44E9B /* MapAppApp.swift */,
-				E29694D02AF2D64600B44E9B /* ContentView.swift */,
 				E2B994282AF3D810005086B5 /* Assets.xcassets */,
 				E29694D42AF2D64700B44E9B /* Preview Content */,
 			);
@@ -86,6 +87,7 @@
 		E2B994252AF3D7CA005086B5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E2C89F572AF7CC2E00FB5A66 /* LocationsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -93,6 +95,7 @@
 		E2B994262AF3D7CF005086B5 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				E2C89F5B2AF7CC5400FB5A66 /* LocationsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -176,7 +179,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2B9942D2AF3D83C005086B5 /* LocationModel.swift in Sources */,
-				E29694D12AF2D64600B44E9B /* ContentView.swift in Sources */,
+				E2C89F5C2AF7CC5400FB5A66 /* LocationsViewModel.swift in Sources */,
+				E2C89F582AF7CC2E00FB5A66 /* LocationsView.swift in Sources */,
 				E29694CF2AF2D64600B44E9B /* MapAppApp.swift in Sources */,
 				E2B9942B2AF3D82B005086B5 /* LocationsDataService.swift in Sources */,
 			);
