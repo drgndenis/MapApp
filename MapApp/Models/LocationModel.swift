@@ -8,7 +8,7 @@
 import Foundation
 import MapKit
 
-struct LocationModel: Identifiable {
+struct LocationModel: Identifiable, Equatable {
     let name: String
     let cityName: String
     let coordinates: CLLocationCoordinate2D
@@ -19,4 +19,9 @@ struct LocationModel: Identifiable {
     var id: String {
         name + cityName
     }
+    
+    static func == (lhs: LocationModel, rhs: LocationModel) -> Bool {
+        lhs.id == rhs.id
+    }
+
 }
