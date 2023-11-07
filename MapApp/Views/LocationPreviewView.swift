@@ -22,6 +22,7 @@ struct LocationPreviewView: View {
             VStack(spacing: 8) {
                 // Learn More Button
                 CustomButtonView(buttonName: "Learn More", action: {
+                    vm.sheetLocation = location
                 })
                     .buttonStyle(.borderedProminent)
                 // Next Button

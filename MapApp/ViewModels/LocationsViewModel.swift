@@ -14,6 +14,8 @@ class LocationsViewModel: ObservableObject {
     @Published var locations: [LocationModel]
     // Show the list of locations
     @Published var showLocationsList: Bool = false
+    // Show location detail via sheet
+    @Published var sheetLocation: LocationModel? = nil
     @Published var mapRegion: MKCoordinateRegion = MKCoordinateRegion()
 
     // Current location on map
